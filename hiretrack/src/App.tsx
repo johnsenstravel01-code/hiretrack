@@ -1,7 +1,5 @@
-import { useState } from 'react'
 import './App.css'
-
-function App() {
+export function App() {
 
   return (
     <>
@@ -12,7 +10,7 @@ function App() {
         </header>
         <main className='dashboard'>
           <div className='welcome'>
-            <h2>Welcome Back Jugesh!!</h2>
+            <h2>Welcome back, Jugesh!</h2>
             <p>Here is your job search overview.</p>
           </div>
           <button className='add-btn'>
